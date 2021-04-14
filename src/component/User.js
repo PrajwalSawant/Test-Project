@@ -43,6 +43,7 @@ const User = () => {
 	return (
 		<div className="d-flex align-items justify-content-center">
 			<div className="w-100" style={{ maxWidth: "400px" }}>
+		<br/>
 				<Card>
 					<Card.Body>
 						{loading && <Loader />}
